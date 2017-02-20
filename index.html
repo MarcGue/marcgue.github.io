@@ -19,11 +19,17 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive title-logo" src="img/logo.png" alt="Kitten">
+        <img class="img-responsive title-logo" src="img/logo.png" alt="Logo">
       </div>
-      <div class="col-xs-12 col-sm-6 text-right text-uppercase">
-        <h1 class="title-super text-thin">Marc Günnel</h1>
-        <h4>Portfolio</h4>
+      <div class="col-xs-12 col-sm-6  text-uppercase">
+        <header class="visible-xs text-center">
+          <h1 class="title-super text-thin">Marc Günnel</h1>
+          <h3>Portfolio</h3>
+        </header>
+        <header class="hidden-xs text-right">
+          <h1 class="title-super text-thin">Marc Günnel</h1>
+          <h3>Portfolio</h3>
+        </header>
       </div>
     </div>
     <div class="row">
@@ -34,7 +40,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <img class="img-responsive" src="http://placehold.it/1140x350" alt="Placehol 1140 x 350">
+        <img class="img-responsive" src="img/pexels-photo-270360.jpeg" alt="Jumbotron">
       </div>
     </div>
 
@@ -46,19 +52,40 @@
 
     <div class="row text-center">
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <img class="img-responsive" src="http://placehold.it/390x250" alt="Appify">
-        <h3 class="text-uppercase">Appify</h3>
-        <p>https://github.com/udacity/appify</p>
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/portfolio-1600_large_2x.png 2x, img/portfolio-800_large_1x.png" />
+          <source media="(min-width: 599px)" srcset="img/portfolio-600_medium.png" />
+          <img class="img-responsive img-feature" src="img/portfolio-400_small.png" alt="Portfolio">
+        </picture>
+        <h3 class="text-uppercase">Portfolio</h3>
+        <p>https://marcgue.github.io/</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <img class="img-responsive" src="http://placehold.it/390x250" alt="Sunflower">
-        <h3 class="text-uppercase">Sunflower</h3>
-        <p>https://github.com/udacity/appify</p>
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/card-1600_large_2x.png 2x, img/animal-trading-card-800_large_1x.png" />
+          <source media="(min-width: 599px)" srcset="img/card-600_medium.png" />
+          <img class="img-responsive img-feature" src="img/card-400_small.png" alt="Animal trading card">
+        </picture>
+        <h3 class="text-uppercase">Animal Trading Card</h3>
+        <p>The Animal Trading Card</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <img class="img-responsive" src="http://placehold.it/390x250" alt="Bokeh">
-        <h3 class="text-uppercase">Bokeh</h3>
-        <p>https://github.com/udacity/appify</p>
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/blog-1600_large_2x.png 2x, img/blog-800_large_1x.png" />
+          <source media="(min-width: 599px)" srcset="img/blog-1600_large_2x.png" />
+          <img class="img-responsive img-feature" src="img/blog-400_small.png" alt="My Blog Post">
+        </picture>
+        <h3 class="text-uppercase">My Blog Post</h3>
+        <p>The Udacity Blog Post</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <footer>
+          <hr>
+          <p class="text-center text-muted">Udacity - Build a Portfolio Site</p>
+        </footer>
       </div>
     </div>
   </div>

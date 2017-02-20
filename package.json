@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Udacity project for building a portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcGue/marcgue.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "Udacity"
+  ],
+  "author": "Marc Günnel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcGue/marcgue.github.io/issues"
+  },
+  "homepage": "https://github.com/MarcGue/marcgue.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-responsive-images": "^1.10.1",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

@@ -1,8 +1,8 @@
 body {
-  font-family: 'Lato', sans-serif;
   color: #2d3c49;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.2em;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .title-hr {
-
+  border-top: 3px solid #7d97ad;
 }
 
 .text-muted {
@@ -26,6 +26,17 @@ body {
   font-weight: 100;
 }
 
-.img-jumbotron {
-  height: 350px;
+.img-feature {
+  height: 230px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .title-logo {
+    margin: 20px auto 0;
+  }
+
+  .title-super {
+    font-size: 40px;
+  }
 }
